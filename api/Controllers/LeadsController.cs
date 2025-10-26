@@ -41,6 +41,9 @@ public class LeadsController : ControllerBase
           return NotFound();
       }
   }
+
+  //Não estava nos requisitos, mas adicionei esse endpoint para facilitar os testes! :)
+  //Ele basicamente reseta os leads para o estado inicial (New), facilitando a reexecução dos testes.
   [HttpPost("Reset")]
   public async Task<IActionResult> Reset() 
   {
