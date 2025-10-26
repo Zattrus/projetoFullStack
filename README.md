@@ -155,7 +155,7 @@ Para desenvolvimento local no Windows, você pode usar o SQL Server LocalDB, que
 Server=(localdb)\\mssqllocaldb;Database=LeadDb;Trusted_Connection=True;MultipleActiveResultSets=true
 ```
 
-## Docker (exemplo sugerido - não incluso nos requisitos, mas ajuda na implantação)
+## Docker (exemplo sugerido - não incluso nos requisitos, mas ajuda na implementação)
 O repositório pode ser dockerizado; não há `Dockerfile`/`docker-compose.yml` por padrão, mas uma configuração sugerida:
 - Serviço `db` (SQL Server ou Postgres)
 - Serviço `api` (build de `./api`)
